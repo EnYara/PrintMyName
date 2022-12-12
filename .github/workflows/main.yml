@@ -1,0 +1,14 @@
+on:
+  push:
+    branches:
+      - master
+      
+jobs: 
+  build:
+    runs-on: Ubunto-latest
+    steps:
+     - name: "yara"
+       run: echo "Hello"
+   
+      
+      
